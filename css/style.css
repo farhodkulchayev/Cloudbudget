@@ -3,9 +3,16 @@
 :root {
     --primary-font: 'Lato';
     --primary-color: #fff;
-    --secondary-color: #000;
-    --ternary-color: #101010;
     --quartet-color: #ED4C5C;
+    --body: #fff;
+    --txt-color: #101010;
+    --card-color: #fff;
+    --section-backgruond: #ED4C5C;
+    --footer-backgruond: #FAFAFA;
+}
+
+body {
+    background: var(--body);
 }
 
 * {
@@ -113,12 +120,6 @@ li {
     border-radius: 6px;
 }
 
-
-
-
-
 /* nav end */
-
-
 
 /* header  end */

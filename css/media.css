@@ -1,3 +1,12 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --body: #040D1F;
+        --txt-color: #fff;
+        --section-backgruond: #451c21;
+        --footer-backgruond: #040D1F;
+        --card-color: #451c21;
+    }
+}
 @media (max-width: 1604px) {}
 @media (max-width: 1440px) {}
 @media (max-width: 1320px) {}
@@ -5,6 +14,65 @@
 @media (max-width: 1140px) {}
 @media (max-width: 1024px) {}
 @media (max-width: 992px) {}
+@media (max-width: 940px) {
+    
+    .header__nav-list {
+        display: none;
+    }
+    
+    .nav__menu {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav__menu-line {
+        position: relative;
+        height: 2px;
+        width: 100%;
+        background: var(--primary-color);
+        z-index: 999;
+        transition: .5s;
+    }
+    
+    .nav__menu:hover .nav__menu-line {
+        background: none;
+    }
+    
+    .nav__menu:hover .nav__menu-line::before {
+        transform: rotate(45deg);
+        top: 0;
+    }
+    
+    .nav__menu:hover .nav__menu-line::after {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    
+    .nav__menu-line::before {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        background: var(--primary-color);
+        left: 0;
+        top: -15px;
+        transition: .5s;
+    }
+    
+    .nav__menu-line::after {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        background: var(--primary-color);
+        left: 0;
+        bottom: -15px;
+        transition: .5s;
+    }
+    
+}
 @media (max-width: 850px) {}
 @media (max-width: 768px) {}
 @media (max-width: 736px) {}
@@ -12,6 +80,13 @@
 @media (max-width: 684px) {}
 @media (max-width: 667px) {}
 @media (max-width: 576px) {}
+@media (max-width: 500px) {
+    
+    .header__nav-form {
+        display: none;
+    }
+    
+}
 @media (max-width: 480px) {}
 @media (max-width: 460px) {}
 @media (max-width: 414px) {}
