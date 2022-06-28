@@ -1,0 +1,44 @@
+@import url(fonts.css);
+
+:root {
+    --primary-font: 'Lato';
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --ternary-color: #101010;
+    --quartet-color: #ED4C5C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--secondary-color);
+}
+
+.card__title {
+    font-size: 18px;
+    color: var(--ternary-color);
+    text-align: center;
+    line-height: 21px;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+}
