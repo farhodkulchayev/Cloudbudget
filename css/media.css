@@ -11,7 +11,17 @@
 @media (max-width: 1440px) {}
 @media (max-width: 1320px) {}
 @media (max-width: 1290px) {}
-@media (max-width: 1140px) {}
+@media (max-width: 1140px) {
+    .feature__cards {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+    
+    .feature__card {
+        scroll-snap-align: center;
+        margin-bottom: 110px;
+    }
+}
 @media (max-width: 1024px) {}
 @media (max-width: 992px) {
     
@@ -141,5 +151,24 @@
 @media (max-width: 460px) {}
 @media (max-width: 414px) {}
 @media (max-width: 412px) {}
+@media (max-width: 380px) {
+    
+    .feature__card {
+        max-width: 350px;
+        width: 100%;
+        flex-shrink: 0;
+    }
+    
+    .feature__card-image {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .feature__card-content {
+        max-width: unset;
+        width: 80%;
+    }
+    
+}
 @media (max-width: 360px) {}
 @media (max-width: 320px) {}
