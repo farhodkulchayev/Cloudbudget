@@ -3,7 +3,8 @@
 :root {
     --primary-font: 'Lato';
     --primary-color: #fff;
-    --quartet-color: #ED4C5C;
+    --secondary-color: #ED4C5C;
+    --ternary-color: #000000;
     --body: #fff;
     --txt-color: #101010;
     --card-color: #fff;
@@ -33,7 +34,7 @@ li {
 .title {
     font-weight: 600;
     font-size: 36px;
-    color: var(--secondary-color);
+    color: var(--txt-color);
 }
 
 .card__title {
@@ -53,13 +54,17 @@ li {
 /* header  start */
 
 .header {
-    background: red;
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+    position: relative;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* nav start */
 
 .header__nav {
-    padding: 33px 0 27px;
+    padding: 33px 0 27px
 }
 
 .nav__container {
@@ -107,7 +112,7 @@ li {
 }
 
 .header__form-option {
-    color: var(--secondary-color);
+    color: var(--ternary-color);
 }
 
 .header__form-button {
@@ -121,5 +126,59 @@ li {
 }
 
 /* nav end */
+
+/* header content start */
+
+.header__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header__content .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 39px;
+}
+
+.header__content-title {
+    font-size: calc(36px + 36 * (100vw / 1920));
+    color: var(--primary-color);
+    text-transform: uppercase;
+    max-width: 578px;
+    width: 100%;
+}
+
+.header__content-txt {
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: calc(16px + 8 * (100vw / 1920));
+    line-height: 150%;
+    max-width: 510px;
+    width: 100%;
+}
+
+.header__content-link {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 17px 53px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+/* header content end */
 
 /* header  end */
