@@ -33,7 +33,7 @@ li {
 
 .title {
     font-weight: 600;
-    font-size: 36px;
+    font-size: calc(25px + 11 * (100vw / 1920));
     color: var(--txt-color);
 }
 
@@ -215,6 +215,7 @@ li {
     width: 100%;
     color: var(--txt-color);
     text-align: justify;
+    font-size: 14px;
 }
 
 .easy__content-link {
