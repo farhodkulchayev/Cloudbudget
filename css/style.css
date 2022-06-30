@@ -323,4 +323,56 @@ li {
 
 /* feature end */
 
+/* technology start */
+
+.technology {
+    padding: 63px 0 104px;
+}
+
+.technology__title {
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.technology__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    counter-reset: quantity;
+}
+
+.technology__card {
+    padding: 4px 32px 30px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    row-gap: 10px;
+    height: 226px;
+}
+
+.technology__card::before {
+    position: absolute;
+    content: '0' counter(quantity);
+    font-weight: 700;
+    font-size: 100px;
+    color: rgba(16, 16, 16, 0.08);
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    counter-increment: quantity;
+}
+
+.technology__card-txt {
+    font-size: 12px;
+    text-align: center;
+    max-width: 191px;
+    width: 100%;
+}
+
+/* technology end */
+
 /* main end */
