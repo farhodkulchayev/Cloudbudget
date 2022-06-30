@@ -22,6 +22,18 @@
         margin-bottom: 110px;
     }
 }
+@media (max-width: 1050px) {
+    
+    .technology__cards {
+        row-gap: 50px;
+    }
+    
+    .technology__card {
+        max-width: unset;
+        width: 40%;
+    }
+    
+}
 @media (max-width: 1024px) {}
 @media (max-width: 992px) {
     
@@ -130,7 +142,9 @@
     }
 }
 @media (max-width: 684px) {}
-@media (max-width: 667px) {}
+@media (max-width: 667px) {
+    
+}
 @media (max-width: 576px) {
     
     .easy__video-image {
@@ -144,6 +158,14 @@
     
     .header__nav-form {
         display: none;
+    }
+    
+    .technology__cards {
+        justify-content: center;
+    }
+    
+    .technology__card {
+        width: 80%;
     }
     
 }
