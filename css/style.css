@@ -254,4 +254,73 @@ li {
 
 /* easy end */
 
+/* feature start */
+
+.feature {
+    padding: 63px 0 229px;
+    background: var(--footer-backgruond);
+}
+
+.feature__title {
+    text-align: center;
+    margin-bottom: 63px;
+}
+
+.feature__cards {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.feature__card {
+    position: relative;
+}
+
+.feature__card-image {
+    width: 350px;
+    height: 250px;
+}
+
+.feature__card-image:hover ~ .feature__card-content {
+    transform: translate(-50%, 30%);
+}
+
+.feature__card-content {
+    position: absolute;
+    width: 293px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 33px 32px 25px;
+    background: var(--primary-color);
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: .5s;
+}
+
+.feature__card-title {
+    margin-bottom: 20px;
+    max-width: 229px;
+    width: 100%;
+}
+
+.feature__card-txt {
+    font-size: 12px;
+    max-width: 229px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.feature__card-link {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+/* feature end */
+
 /* main end */
