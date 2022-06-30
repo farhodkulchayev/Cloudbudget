@@ -154,6 +154,7 @@ li {
 
 .header__content-title {
     font-size: calc(36px + 36 * (100vw / 1920));
+    /* font-size: 72px; */
     color: var(--primary-color);
     text-transform: uppercase;
     max-width: 578px;
@@ -164,6 +165,7 @@ li {
     font-weight: 600;
     color: var(--primary-color);
     font-size: calc(16px + 8 * (100vw / 1920));
+    /* font-size: 24px; */
     line-height: 150%;
     max-width: 510px;
     width: 100%;
