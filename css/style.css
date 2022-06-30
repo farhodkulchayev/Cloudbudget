@@ -214,6 +214,7 @@ li {
     max-width: 445px;
     width: 100%;
     color: var(--txt-color);
+    text-align: justify;
 }
 
 .easy__content-link {
@@ -223,6 +224,12 @@ li {
 
 .easy__content-video {
     position: relative;
+}
+
+.easy__video-image {
+    width: 445px;
+    height: 311px;
+    object-fit: cover;
 }
 
 .easy__video-link {
