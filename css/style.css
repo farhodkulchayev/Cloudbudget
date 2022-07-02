@@ -257,6 +257,7 @@ li {
 /* feature start */
 
 .feature {
+    border-top: 1px solid rgba(255, 255, 255, 0.456);
     padding: 63px 0 229px;
     background: var(--footer-backgruond);
 }
@@ -326,6 +327,7 @@ li {
 /* technology start */
 
 .technology {
+    border-top: 1px solid rgba(255, 255, 255, 0.456);
     padding: 63px 0 104px;
 }
 
@@ -390,6 +392,7 @@ li {
 /* money start */
 
 .money {
+    border-top: 1px solid rgba(255, 255, 255, 0.456);
     background: var(--section-backgruond);
     padding: 94px 0;
 }
@@ -477,6 +480,7 @@ li {
 /* contact start */
 
 .contact {
+    border-top: 1px solid rgba(255, 255, 255, 0.456);
     padding: 117px 0 78px;
 }
 
@@ -556,3 +560,67 @@ li {
 /* contact end */
 
 /* main end */
+
+/* footer start */
+
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.456);
+    padding: 85px 0;
+    background: var(--footer-backgruond);
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 90px;
+}
+
+.footer__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__card-title {
+    font-size: 18px;
+    color: var(--txt-color);
+    margin-bottom: 30px;
+}
+
+.footer__card-txt {
+    font-size: 12px;
+    color: var(--txt-color) ;
+}
+
+.footer__card-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.footer__card-link {
+    color: var(--txt-color);
+    font-size: 12px;
+}
+
+.footer__card-links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-bottom: 10px;
+}
+
+.footer__card-icons {
+    display: flex;
+    column-gap: 15px;
+}
+
+.footer__card-icon {
+    color: var(--txt-color);
+}
+
+.footer__txt {
+    font-size: 12px;
+    color: var(--txt-color);
+}
+
+/* footer end */
