@@ -170,7 +170,23 @@
     
 }
 @media (max-width: 850px) {}
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    
+    .footer__container {
+        padding: 0 50px;
+        
+    }
+    
+    .footer__cards {
+        row-gap: 50px;
+    }
+    
+    .footer__card {
+        width: 40%;
+    }
+    
+    
+}
 @media (max-width: 736px) {}
 @media (max-width: 734px) {
     
@@ -184,7 +200,14 @@
     
 }
 @media (max-width: 684px) {}
-@media (max-width: 667px) {}
+@media (max-width: 667px) {
+    
+    .footer__payment-image {
+        max-width: unset;
+        width: 100%;
+    }
+    
+}
 @media (max-width: 576px) {
     
     .easy__video-image {
@@ -230,7 +253,17 @@
     
 }
 @media (max-width: 480px) {}
-@media (max-width: 460px) {}
+@media (max-width: 460px) {
+    
+    .footer__cards {
+        flex-direction: column;
+    }
+    
+    .footer__card {
+        width: 80%;
+    }
+    
+}
 @media (max-width: 414px) {
     
     .contact__form {
