@@ -509,7 +509,8 @@ li {
 }
 
 .contact__form-txt .contact__form-input {
-    width: 255px;
+    max-width: 255px;
+    width: 100%;
     padding: 20px;
     border-radius: 6px;
     border: 1px solid #333333;
@@ -522,6 +523,8 @@ li {
     padding-right: 0;
     border-radius: 6px;
     border: 1px solid #333333;
+    max-width: 540px;
+    width: 100%;
 }
 
 .contact__form-select {
@@ -530,6 +533,8 @@ li {
     border-radius: 6px;
     border: 1px solid #333333;
     color: var(--txt-color);
+    max-width: 540px;
+    width: 100%;
     
 }
 

@@ -10,6 +10,15 @@
     .technology__card::before {
         color: rgba(233, 209, 209, 0.238);
     }
+    
+    .contact__form-input {
+        background: rgba(233, 209, 209, 0.321);
+    }
+    
+    .contact__form-select {
+        background: rgba(233, 209, 209, 0.321);
+    }
+    
 }
 @media (max-width: 1604px) {}
 @media (max-width: 1440px) {}
@@ -45,6 +54,20 @@
         padding-right: 0;
         flex-direction: column;
         row-gap: 40px;
+    }
+    
+    .contact__container {
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+    }
+    
+    .contact__content-title {
+        text-align: center;
+    }
+    
+    .contact__content-txt {
+        text-align: center;
     }
     
 }
@@ -208,7 +231,23 @@
 }
 @media (max-width: 480px) {}
 @media (max-width: 460px) {}
-@media (max-width: 414px) {}
+@media (max-width: 414px) {
+    
+    .contact__form {
+        width: 90%;
+    }
+    
+    .contact__form-txt {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    
+    .contact__form-txt .contact__form-input {
+        max-width: unset;
+        width: 100%;
+    }
+    
+}
 @media (max-width: 412px) {}
 @media (max-width: 380px) {
     
