@@ -454,7 +454,7 @@ li {
 .money__image:nth-of-type(2) {
     position: absolute;
     top: 50%;
-    left: -44px;
+    left: -11%;
     transform: translateY(-50%);
     transition: .5s;
     width: 383px;
@@ -464,7 +464,7 @@ li {
 .money__image:nth-of-type(3) {
     position: absolute;
     top: 50%;
-    right: -44px;
+    right: -11%;
     transform: translateY(-50%);
     transition: .5s;
     width: 383px;
