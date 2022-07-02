@@ -6,6 +6,10 @@
         --footer-backgruond: #040D1F;
         --card-color: #451c21;
     }
+    
+    .technology__card::before {
+        color: rgba(233, 209, 209, 0.238);
+    }
 }
 @media (max-width: 1604px) {}
 @media (max-width: 1440px) {}
@@ -19,13 +23,14 @@
     
     .feature__card {
         scroll-snap-align: center;
-        margin-bottom: 110px;
+        margin-bottom: 120px;
     }
 }
 @media (max-width: 1050px) {
     
     .technology__cards {
-        row-gap: 50px;
+        gap: 50px;
+        justify-content: center;
     }
     
     .technology__card {
